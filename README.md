@@ -1,14 +1,13 @@
 
 # Loja API
 
-Este projeto consiste em uma API de loja desenvolvida em C#, com foco no gerenciamento de **clientes**, **produtos** e **fornecedores**. A aplicação foi criada com o objetivo de estudo e prática de desenvolvimento backend, utilizando boas práticas, organização de código e arquitetura REST.
+Este projeto consiste em uma API de loja desenvolvida em C#, com foco no gerenciamento de **clientes**, **produtos**. A aplicação foi criada com o objetivo de estudo e prática de desenvolvimento backend, utilizando boas práticas, organização de código e arquitetura REST.
 
 ## Funcionalidades
 
 - Cadastro, edição, listagem e remoção de clientes
 - Cadastro, edição, listagem e remoção de produtos
-- Cadastro, edição, listagem e remoção de fornecedores
-- Relacionamento entre produtos e fornecedores
+- Integração com API de pagamentos
 - Retorno de dados em formato JSON
 - Padronização de respostas HTTP
 
@@ -18,7 +17,7 @@ Este projeto consiste em uma API de loja desenvolvida em C#, com foco no gerenci
 - .NET (ASP.NET Core)
 - API REST
 - Entity Framework Core
-- Banco de dados relacional (ex: MySQL, SQL Server ou SQLite)
+- Banco de dados relacional Postgres
 
 ## Estrutura do Projeto
 
